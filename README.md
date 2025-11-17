@@ -35,7 +35,3 @@ ___
 
 **Download Links:**
 - [Dataset Download Page](https://urbansounddataset.weebly.com/urbansound8k.html)
-```
-J. Salamon, C. Jacoby and J. P. Bello, "A Dataset and Taxonomy for Urban Sound Research", 
-22nd ACM International Conference on Multimedia, Orlando USA, Nov. 2014.
-```
