@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-This project focuses on classifying urban environmental sounds using deep learning techniques. I will implement Convolutional Neural Networks (CNNs) and Convolutional Recurrent Neural Networks (CRNNs) applied to mel-spectrogram representations of audio data to classify sounds into 10 distinct categories including sirens, dog barks, drilling, street music, gunshots, and more.
+This project focuses on classifying urban environmental sounds using deep learning techniques. I will implement ML and DL models applied to mel-spectrogram representations of audio data to classify sounds into 10 distinct categories including sirens, dog barks, drilling, street music, gunshots, and more.
 
 The model is trained and evaluated using the UrbanSound8K dataset with 10-fold cross-validation methodology. Various audio preprocessing techniques (normalization) and data augmentation strategies (pitch shifting, time stretching) will be employed to improve model robustness.
 
