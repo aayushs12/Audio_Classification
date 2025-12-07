@@ -1,5 +1,26 @@
 # Urban Sound Classification using Deep Learning
 
+##Repository Structure
+This project is organized into three distinct notebooks, representing the progression from data analysis to advanced model implementation:
+1. **EDA_Audio_Classification.ipynb**
+Phase: Exploratory Data Analysis & Visualization
+Data Setup: Handles the automatic downloading and validation of the UrbanSound8K dataset using the soundata library .
+Distribution Analysis: Visualizes class imbalances and fold distributions to understand the dataset structure .
+Feature Visualization: Generates plots for Waveforms, Mel-Spectrograms, and MFCCs to visually compare different sound categories .
+
+2. **Audio_Classification_Models.ipynb**
+Phase: Machine Learning, Custom Deep Learning & Transfer Learning
+Feature Engineering: Implements caching for extracting MFCC statistics (for ML) and Mel-Spectrograms (for DL) .
+Traditional ML: Trains and evaluates baseline models including Random Forest, Support Vector Classifier (SVC), and K-Nearest Neighbors (KNN) .
+Deep Learning: Implements custom architectures including Artificial Neural Networks (ANN), 1D CNNs, and 2D CNNs .
+Transfer Learning: Fine-tunes an EfficientNet-B0 model modified for single-channel audio, utilizing MixUp augmentation to improve performance .
+
+3. **AST.ipynb**
+Phase: Transformer
+Model Implementation: Fine-tunes the Audio Spectrogram Transformer (AST) (specifically MIT/ast-finetuned-audioset) .
+Preprocessing: Handles specific AST requirements, including resampling to 16kHz and padding inputs to 1024 frames .
+Evaluation: Achieves the highest accuracy and produces detailed evaluation visualizations including Confusion Matrices, ROC Curves, and per-class accuracy reports .
+
 ## Project Summary
 
 This project focuses on classifying urban environmental sounds using deep learning techniques. I will implement ML and DL models applied to mel-spectrogram representations of audio data to classify sounds into 10 distinct categories including sirens, dog barks, drilling, street music, gunshots, and more.
